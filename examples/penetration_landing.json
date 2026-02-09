@@ -1,0 +1,204 @@
+{
+  "name": "Penetration Landing Page Theme",
+  "description": "Готова тема для Penetration Landing Page з корпоративними кольорами",
+  
+  "dataColors": [
+    "#22d448",
+    "#6066bf",
+    "#9ea3a3",
+    "#d61128",
+    "#118DFF",
+    "#FFB900",
+    "#00BCF2",
+    "#8764B8"
+  ],
+  
+  "good": "#22d448",
+  "neutral": "#9ea3a3",
+  "bad": "#d61128",
+  
+  "background": "#FFFFFF",
+  "foreground": "#000000",
+  "tableAccent": "#6066bf",
+  
+  "textClasses": {
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#666666"
+    },
+    "title": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#000000"
+    },
+    "header": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#000000"
+    },
+    "callout": {
+      "fontSize": 45,
+      "fontFace": "Segoe UI Light",
+      "color": "#000000"
+    }
+  },
+  
+  "visualStyles": {
+    "card": {
+      "*": {
+        "calloutValue": [{
+          "fontSize": 45,
+          "fontFamily": "Segoe UI Light",
+          "color": { "solid": { "color": "#000000" } }
+        }],
+        "categoryLabels": [{
+          "fontSize": 12,
+          "fontFamily": "Segoe UI",
+          "color": { "solid": { "color": "#666666" } }
+        }],
+        "background": [{
+          "show": true,
+          "color": { "solid": { "color": "#FFFFFF" } }
+        }],
+        "visualBorder": [{
+          "show": false
+        }]
+      }
+    },
+    
+    "donutChart": {
+      "*": {
+        "legend": [{
+          "show": true,
+          "position": "Bottom",
+          "fontSize": 10,
+          "fontFamily": "Segoe UI",
+          "fontColor": { "solid": { "color": "#666666" } }
+        }],
+        "slices": [{
+          "innerRadiusRatio": 50
+        }],
+        "labels": [{
+          "show": false
+        }],
+        "visualBorder": [{
+          "show": false
+        }]
+      }
+    },
+    
+    "clusteredBarChart": {
+      "*": {
+        "dataLabels": [{
+          "show": true,
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "color": { "solid": { "color": "#000000" } },
+          "labelPosition": "InsideEnd"
+        }],
+        "categoryAxis": [{
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "fontColor": { "solid": { "color": "#666666" } }
+        }],
+        "valueAxis": [{
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "fontColor": { "solid": { "color": "#666666" } },
+          "gridlineColor": { "solid": { "color": "#E5E5E5" } }
+        }],
+        "visualBorder": [{
+          "show": false
+        }]
+      }
+    },
+    
+    "tableEx": {
+      "*": {
+        "grid": [{
+          "gridVerticalColor": { "solid": { "color": "#E5E5E5" } },
+          "gridHorizontalColor": { "solid": { "color": "#E5E5E5" } },
+          "textSize": 10,
+          "fontFamily": "Segoe UI"
+        }],
+        "columnHeaders": [{
+          "fontColor": { "solid": { "color": "#000000" } },
+          "backColor": { "solid": { "color": "#F2F2F2" } },
+          "fontSize": 11,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        "values": [{
+          "fontColorPrimary": { "solid": { "color": "#000000" } },
+          "backColorPrimary": { "solid": { "color": "#FFFFFF" } },
+          "fontColorSecondary": { "solid": { "color": "#000000" } },
+          "backColorSecondary": { "solid": { "color": "#F9F9F9" } }
+        }],
+        "total": [{
+          "fontColor": { "solid": { "color": "#000000" } },
+          "backColor": { "solid": { "color": "#6066bf" } },
+          "fontSize": 11,
+          "fontFamily": "Segoe UI Semibold"
+        }]
+      }
+    },
+    
+    "slicer": {
+      "*": {
+        "header": [{
+          "fontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#F2F2F2" } },
+          "fontSize": 12,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        "items": [{
+          "fontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "fontSize": 10,
+          "fontFamily": "Segoe UI"
+        }],
+        "general": [{
+          "outlineColor": { "solid": { "color": "#6066bf" } },
+          "outlineWeight": 2
+        }],
+        "visualBorder": [{
+          "show": true,
+          "color": { "solid": { "color": "#CCCCCC" } },
+          "radius": 5
+        }]
+      }
+    },
+    
+    "kpi": {
+      "*": {
+        "indicator": [{
+          "indicatorDisplayUnits": 0,
+          "fontSizeIndicator": 28,
+          "fontFamilyIndicator": "Segoe UI",
+          "colorIndicator": { "solid": { "color": "#000000" } }
+        }],
+        "trendline": [{
+          "show": true,
+          "colorTrendline": { "solid": { "color": "#6066bf" } }
+        }],
+        "status": [{
+          "direction": "high",
+          "goodColor": { "solid": { "color": "#22D448" } },
+          "neutralColor": { "solid": { "color": "#9EA3A3" } },
+          "badColor": { "solid": { "color": "#D61128" } }
+        }]
+      }
+    }
+  },
+  
+  "_usage": {
+    "how_to_apply": "View → Themes → Browse for themes → вибрати цей файл",
+    "colors_explanation": {
+      "#22d448": "Зелений - позитивні KPI, зростання",
+      "#6066bf": "Фіолетовий - акцент, outline slicers, trendlines",
+      "#9ea3a3": "Сірий - нейтральні значення",
+      "#d61128": "Червоний - негативні KPI, падіння"
+    },
+    "customization": "Змініть dataColors[] для інших проектів, зберігаючи структуру visualStyles"
+  }
+}

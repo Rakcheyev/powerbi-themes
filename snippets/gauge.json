@@ -1,0 +1,110 @@
+{
+  "gauge": {
+      "*": {
+        "general": [{
+          "responsive": true,
+          "keepLayerOrder": true
+        }],
+        
+        "axis": [{
+          "min": 0,
+          "max": null,
+          "target": null,
+          "axisColor": { "solid": { "color": "#CCCCCC" } }
+        }],
+        
+        "dataLabels": [{
+          "show": true,
+          "color": { "solid": { "color": "#000000" } },
+          "labelDisplayUnits": 0,
+          "labelPrecision": null,
+          "fontSize": 11,
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "calloutValue": [{
+          "show": true,
+          "color": { "solid": { "color": "#000000" } },
+          "labelDisplayUnits": 0,
+          "labelPrecision": 0,
+          "fontSize": 45,
+          "fontFamily": "Segoe UI Light"
+        }],
+        
+        "labels": [{
+          "show": true,
+          "color": { "solid": { "color": "#666666" } },
+          "labelDisplayUnits": 0,
+          "labelPrecision": null,
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "round": false
+        }],
+        
+        "target": [{
+          "show": true,
+          "color": { "solid": { "color": "#000000" } },
+          "labelDisplayUnits": 0,
+          "fontSize": 13,
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "indicator": [{
+          "indicatorColor": { "solid": { "color": "#118DFF" } },
+          "thickness": 50
+        }],
+        
+        "background": [{
+          "show": false,
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 0
+        }],
+        
+        "title": [{
+          "show": false,
+          "fontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "alignment": "left",
+          "fontSize": 12,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        
+        "visualHeader": [{
+          "show": true,
+          "foreground": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } }
+        }],
+        
+        "visualTooltip": [{
+          "titleFontColor": { "solid": { "color": "#000000" } },
+          "valueFontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 10,
+          "fontSize": 12,
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "visualBorder": [{
+          "show": false,
+          "color": { "solid": { "color": "#CCCCCC" } },
+          "radius": 0,
+          "width": 1
+        }]
+      }
+    }
+  },
+  
+  "_comments": {
+    "description": "Максимально повний набір параметрів для Gauge візуалу",
+    "usage": "Copy 'gauge' object in visualStyles of your theme",
+    "howToUse": "{ \"visualStyles\": { ...paste_here... } }",
+    "min": "Мінімальне значення шкали (0 або null=auto)",
+    "max": "Максимальне значення шкали (null=auto)",
+    "target": "Цільове значення (null=не показувати)",
+    "thickness": "0-100: товщина gauge indicator",
+    "round": "true = заокруглювати значення labels до цілих",
+    "labelDisplayUnits": "0=Auto, -1=None, 1000=K, 1000000=M",
+    "calloutValue": "Центральне велике значення",
+    "indicator": "Кольорова дуга gauge"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "tableEx": {
+      "*": {
+        "general": [{
+          "responsive": true,
+          "keepLayerOrder": true,
+          "outlineColor": { "solid": { "color": "#118DFF" } },
+          "outlineWeight": 1
+        }],
+        
+        "grid": [{
+          "gridVertical": true,
+          "gridVerticalColor": { "solid": { "color": "#E5E5E5" } },
+          "gridVerticalWeight": 1,
+          "gridHorizontal": true,
+          "gridHorizontalColor": { "solid": { "color": "#E5E5E5" } },
+          "gridHorizontalWeight": 1,
+          "rowPadding": 3,
+          "imageHeight": 75,
+          "textSize": 10,
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "columnHeaders": [{
+          "fontColor": { "solid": { "color": "#000000" } },
+          "backColor": { "solid": { "color": "#F2F2F2" } },
+          "outline": "Frame",
+          "fontSize": 11,
+          "fontFamily": "Segoe UI Semibold",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "alignment": "Left",
+          "autoSizeColumnWidth": true,
+          "urlIcon": true,
+          "wordWrap": false
+        }],
+        
+        "values": [{
+          "fontColorPrimary": { "solid": { "color": "#000000" } },
+          "backColorPrimary": { "solid": { "color": "#FFFFFF" } },
+          "fontColorSecondary": { "solid": { "color": "#000000" } },
+          "backColorSecondary": { "solid": { "color": "#F9F9F9" } },
+          "outline": "None",
+          "fontSize": 10,
+          "fontFamily": "Segoe UI",
+          "urlIcon": true,
+          "wordWrap": false
+        }],
+        
+        "total": [{
+          "fontColor": { "solid": { "color": "#000000" } },
+          "backColor": { "solid": { "color": "#F2F2F2" } },
+          "outline": "None",
+          "fontSize": 11,
+          "fontFamily": "Segoe UI Semibold",
+          "bold": true
+        }],
+        
+        "subTotals": [{
+          "fontColor": { "solid": { "color": "#000000" } },
+          "backColor": { "solid": { "color": "#F7F7F7" } },
+          "outline": "TopBottom",
+          "rowSubtotals": true,
+          "columnSubtotals": true,
+          "rowSubtotalsPerLevel": true,
+          "applyToHeaders": false
+        }],
+        
+        "rowHeaders": [{
+          "fontColor": { "solid": { "color": "#000000" } },
+          "backColor": { "solid": { "color": "#F9F9F9" } },
+          "outline": "None",
+          "fontSize": 10,
+          "fontFamily": "Segoe UI",
+          "stepped": false,
+          "steppedLayoutIndentation": 10,
+          "urlIcon": true,
+          "wordWrap": false
+        }],
+        
+        "columnFormatting": [{
+          "fontColorPrimary": { "solid": { "color": "#000000" } },
+          "backColorPrimary": { "solid": { "color": "#FFFFFF" } },
+          "fontColorSecondary": { "solid": { "color": "#000000" } },
+          "backColorSecondary": { "solid": { "color": "#F9F9F9" } }
+        }],
+        
+        "title": [{
+          "show": false,
+          "fontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "alignment": "left",
+          "fontSize": 12,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        
+        "background": [{
+          "show": false,
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 0
+        }],
+        
+        "visualHeader": [{
+          "show": true,
+          "foreground": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } }
+        }],
+        
+        "visualTooltip": [{
+          "titleFontColor": { "solid": { "color": "#000000" } },
+          "valueFontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 10,
+          "fontSize": 12,
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "visualBorder": [{
+          "show": false,
+          "color": { "solid": { "color": "#CCCCCC" } },
+          "radius": 0,
+          "width": 1
+        }]
+      }
+    }
+  },
+  
+  "_comments": {
+    "description": "Максимально повний набір параметрів для Table та Matrix",
+    "usage": "Copy 'tableEx' object in visualStyles of your theme",
+    "howToUse": "{ \"visualStyles\": { ...paste_here... } }",
+    "note": "Працює для: tableEx (Table), pivotTable (Matrix)",
+    "outline": "None | BottomOnly | TopOnly | LeftOnly | RightOnly | TopBottom | LeftRight | Frame",
+    "alignment": "Left | Center | Right | Auto",
+    "stepped": "true = hierarchical indent в Matrix",
+    "steppedLayoutIndentation": "0-50: розмір indent для stepped",
+    "rowPadding": "0-20: vertical padding в cells",
+    "imageHeight": "10-250: висота зображень в таблиці",
+    "autoSizeColumnWidth": "true = автоматична ширина колонок",
+    "urlIcon": "true = показувати іконку для URL",
+    "wordWrap": "true = перенос тексту"
+  }
+}

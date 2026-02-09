@@ -1,0 +1,133 @@
+{
+  "donutChart": {
+      "*": {
+        "general": [{
+          "responsive": true,
+          "keepLayerOrder": true
+        }],
+        
+        "legend": [{
+          "show": true,
+          "position": "Bottom",
+          "showTitle": false,
+          "titleText": "",
+          "fontColor": { "solid": { "color": "#666666" } },
+          "fontFamily": "Segoe UI",
+          "fontSize": 10,
+          "bold": false,
+          "italic": false,
+          "underline": false
+        }],
+        
+        "dataPoint": [{
+          "fill": { "solid": { "color": "#118DFF" } }
+        }],
+        
+        "labels": [{
+          "show": false,
+          "color": { "solid": { "color": "#000000" } },
+          "labelDisplayUnits": 0,
+          "labelPrecision": 0,
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "labelPosition": "Outside",
+          "labelDensity": 50,
+          "enableBackground": false,
+          "backgroundColor": { "solid": { "color": "#FFFFFF" } },
+          "backgroundTransparency": 50,
+          "showAll": true
+        }],
+        
+        "slices": [{
+          "innerRadiusRatio": 50,
+          "labelStyle": "Category"
+        }],
+        
+        "detail": [{
+          "show": true,
+          "fontSize": 12,
+          "color": { "solid": { "color": "#000000" } },
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "categoryLabels": [{
+          "show": true,
+          "fontSize": 12,
+          "fontFamily": "Segoe UI",
+          "color": { "solid": { "color": "#666666" } }
+        }],
+        
+        "percentLabels": [{
+          "show": false,
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "color": { "solid": { "color": "#000000" } }
+        }],
+        
+        "border": [{
+          "show": false,
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "width": 1
+        }],
+        
+        "background": [{
+          "show": false,
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 0
+        }],
+        
+        "title": [{
+          "show": false,
+          "fontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "alignment": "left",
+          "fontSize": 12,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        
+        "visualHeader": [{
+          "show": true,
+          "foreground": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } }
+        }],
+        
+        "visualTooltip": [{
+          "titleFontColor": { "solid": { "color": "#000000" } },
+          "valueFontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 10,
+          "fontSize": 12,
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "visualBorder": [{
+          "show": false,
+          "color": { "solid": { "color": "#CCCCCC" } },
+          "radius": 0,
+          "width": 1
+        }],
+        
+        "shadow": [{
+          "show": false,
+          "color": { "solid": { "color": "#000000" } },
+          "transparency": 70,
+          "position": "Outer",
+          "angle": 45,
+          "distance": 10,
+          "blur": 10
+        }]
+      }
+    }
+  },
+  
+  "_comments": {
+    "description": "Максимально повний набір параметрів для Donut Chart",
+    "usage": "Copy 'donutChart' object in visualStyles of your theme",
+    "howToUse": "{ \"visualStyles\": { ...paste_here... } }",
+    "innerRadiusRatio": "0-100: 0=pie chart, 50=donut, 100=кільце",
+    "labelPosition": "Inside | Outside | InsideCenter | InsideEnd | OutsideEnd",
+    "labelStyle": "Category | Data | Both | Percent | CategoryPercent | CategoryData",
+    "legend_position": "Top | Bottom | Left | Right | TopCenter | BottomCenter | LeftCenter | RightCenter",
+    "labelDensity": "0-100: більше = більше labels"
+  }
+}

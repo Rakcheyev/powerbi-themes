@@ -1,0 +1,103 @@
+{
+  "kpi": {
+      "*": {
+        "general": [{
+          "responsive": true,
+          "keepLayerOrder": true
+        }],
+        
+        "indicator": [{
+          "indicatorDisplayUnits": 0,
+          "indicatorPrecision": 2,
+          "fontSizeIndicator": 28,
+          "fontFamilyIndicator": "Segoe UI",
+          "colorIndicator": { "solid": { "color": "#000000" } }
+        }],
+        
+        "trendline": [{
+          "show": true,
+          "colorTrendline": { "solid": { "color": "#118DFF" } },
+          "transparency": 0,
+          "lineWidth": 2
+        }],
+        
+        "goals": [{
+          "showGoal": true,
+          "goalFontSize": 16,
+          "goalFontFamily": "Segoe UI",
+          "colorGoal": { "solid": { "color": "#666666" } },
+          "showDistance": true,
+          "distanceFontSize": 14,
+          "distanceFontFamily": "Segoe UI",
+          "colorDistance": { "solid": { "color": "#666666" } }
+        }],
+        
+        "status": [{
+          "direction": "high",
+          "goodColor": { "solid": { "color": "#22D448" } },
+          "neutralColor": { "solid": { "color": "#9EA3A3" } },
+          "badColor": { "solid": { "color": "#D61128" } }
+        }],
+        
+        "date": [{
+          "showDate": true,
+          "dateFontSize": 12,
+          "dateFontFamily": "Segoe UI",
+          "colorDate": { "solid": { "color": "#666666" } }
+        }],
+        
+        "background": [{
+          "show": false,
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 0
+        }],
+        
+        "title": [{
+          "show": false,
+          "fontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "alignment": "left",
+          "fontSize": 12,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        
+        "visualHeader": [{
+          "show": true,
+          "foreground": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } }
+        }],
+        
+        "visualTooltip": [{
+          "titleFontColor": { "solid": { "color": "#000000" } },
+          "valueFontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 10,
+          "fontSize": 12,
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "visualBorder": [{
+          "show": false,
+          "color": { "solid": { "color": "#CCCCCC" } },
+          "radius": 0,
+          "width": 1
+        }]
+      }
+    }
+  },
+  
+  "_comments": {
+    "description": "Максимально повний набір параметрів для KPI візуалу",
+    "usage": "Copy 'kpi' object in visualStyles of your theme",
+    "howToUse": "{ \"visualStyles\": { ...paste_here... } }",
+    "direction": "high | low - визначає що вважається 'good' (високе чи низьке значення)",
+    "indicatorDisplayUnits": "0=Auto, -1=None, 1000=K, 1000000=M, 1000000000=B",
+    "lineWidth": "1-6: товщина trendline",
+    "showGoal": "true = показувати target value",
+    "showDistance": "true = показувати відстань до мети (delta)",
+    "showDate": "true = показувати дату",
+    "goodColor": "колір для позитивного статусу",
+    "neutralColor": "колір для нейтрального статусу",
+    "badColor": "колір для негативного статусу"
+  }
+}

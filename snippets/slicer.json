@@ -1,0 +1,135 @@
+{
+  "slicer": {
+      "*": {
+        "general": [{
+          "responsive": true,
+          "keepLayerOrder": true,
+          "outlineColor": { "solid": { "color": "#118DFF" } },
+          "outlineWeight": 2
+        }],
+        
+        "header": [{
+          "show": true,
+          "fontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#F2F2F2" } },
+          "outline": "BottomOnly",
+          "textSize": 12,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        
+        "items": [{
+          "fontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "outline": "Frame",
+          "textSize": 10,
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "selection": [{
+          "selectAllCheckboxEnabled": true,
+          "singleSelect": false
+        }],
+        
+        "search": [{
+          "show": true,
+          "iconColor": { "solid": { "color": "#118DFF" } }
+        }],
+        
+        "date": [{
+          "fontColor": { "solid": { "color": "#000000" } },
+          "textSize": 10
+        }],
+        
+        "slider": [{
+          "show": true,
+          "color": { "solid": { "color": "#118DFF" } }
+        }],
+        
+        "title": [{
+          "show": false,
+          "fontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "alignment": "left",
+          "fontSize": 12,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        
+        "background": [{
+          "show": true,
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 0
+        }],
+        
+        "visualHeader": [{
+          "show": true,
+          "foreground": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } }
+        }],
+        
+        "visualBorder": [{
+          "show": true,
+          "color": { "solid": { "color": "#CCCCCC" } },
+          "radius": 5,
+          "width": 1
+        }],
+        
+        "shadow": [{
+          "show": false,
+          "color": { "solid": { "color": "#000000" } },
+          "transparency": 70,
+          "position": "Outer"
+        }]
+      }
+    }
+  },
+  
+  "_comments": {
+    "description": "Максимально повний набір параметрів для Slicer (List, Dropdown, Buttons)",
+    "usage": "Copy 'slicer' object in visualStyles of your theme",
+    "howToUse": "{ \"visualStyles\": { ...paste_here... } }",
+    "outline": "None | BottomOnly | TopOnly | LeftOnly | RightOnly | TopBottom | LeftRight | Frame",
+    "singleSelect": "true = radio buttons, false = checkboxes",
+    "selectAllCheckboxEnabled": "true = показувати 'Select All'",
+    "gridLayout": "horizontal | vertical",
+    "textAlignment": "left | center | right",
+    "padding": "0-20: внутрішній відступ buttons",
+    "borderRadius": "0-100: заокруглення кутів buttons"
+  },
+  
+  "_slicerButton_specific": {
+    "slicerButton": {
+      "*": {
+        "items": [{
+          "fontColor": { "solid": { "color": "#666666" } },
+          "background": { "solid": { "color": "#F2F2F2" } },
+          "selectedColor": { "solid": { "color": "#FFFFFF" } },
+          "selectedBackground": { "solid": { "color": "#118DFF" } },
+          "hoverColor": { "solid": { "color": "#000000" } },
+          "hoverBackground": { "solid": { "color": "#E5E5E5" } },
+          "outline": "Frame",
+          "outlineColor": { "solid": { "color": "#CCCCCC" } },
+          "outlineWeight": 1,
+          "padding": 5,
+          "textSize": 11,
+          "fontFamily": "Segoe UI",
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "borderRadius": 5
+        }],
+        
+      }
+    }
+  },
+  
+  "_comments": {
+    "usage": "Copy 'slicer' для звичайних slicers, 'slicerButton' для button slicers",
+    "outline": "None | BottomOnly | TopOnly | LeftOnly | RightOnly | TopBottom | LeftRight | Frame",
+    "singleSelect": "true = radio buttons, false = checkboxes",
+    "selectAllCheckboxEnabled": "true = показувати 'Select All'",
+    "gridLayout": "horizontal | vertical",
+    "textAlignment": "left | center | right",
+    "padding": "0-20: внутрішній відступ buttons",
+    "borderRadius": "0-100: заокруглення кутів buttons"
+  }
+}

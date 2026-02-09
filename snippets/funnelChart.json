@@ -1,0 +1,91 @@
+{
+  "funnel": {
+      "*": {
+        "general": [{
+          "responsive": true,
+          "keepLayerOrder": true
+        }],
+        
+        "dataPoint": [{
+          "defaultColor": { "solid": { "color": "#118DFF" } }
+        }],
+        
+        "dataLabels": [{
+          "show": false,
+          "color": { "solid": { "color": "#000000" } },
+          "labelDisplayUnits": 0,
+          "labelPrecision": null,
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "labelPosition": "InsideCenter"
+        }],
+        
+        "categoryLabels": [{
+          "show": true,
+          "fontSize": 12,
+          "fontFamily": "Segoe UI",
+          "color": { "solid": { "color": "#666666" } }
+        }],
+        
+        "percentBarLabel": [{
+          "show": false,
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "color": { "solid": { "color": "#666666" } }
+        }],
+        
+        "funnelOptions": [{
+          "orientation": "vertical"
+        }],
+        
+        "background": [{
+          "show": false,
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 0
+        }],
+        
+        "title": [{
+          "show": false,
+          "fontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "alignment": "left",
+          "fontSize": 12,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        
+        "visualHeader": [{
+          "show": true,
+          "foreground": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } }
+        }],
+        
+        "visualTooltip": [{
+          "titleFontColor": { "solid": { "color": "#000000" } },
+          "valueFontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 10,
+          "fontSize": 12,
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "visualBorder": [{
+          "show": false,
+          "color": { "solid": { "color": "#CCCCCC" } },
+          "radius": 0,
+          "width": 1
+        }]
+      }
+    }
+  },
+  
+  "_comments": {
+    "description": "Максимально повний набір параметрів для Funnel Chart",
+    "usage": "Copy 'funnel' object in visualStyles of your theme",
+    "howToUse": "{ \"visualStyles\": { ...paste_here... } }",
+    "orientation": "vertical | horizontal",
+    "labelPosition": "InsideCenter | OutsideEnd",
+    "percentBarLabel": "Показує conversion rate між стадіями",
+    "categoryLabels": "Labels для кожної стадії funnel",
+    "dataLabels": "Значення всередині funnel stages"
+  }
+}

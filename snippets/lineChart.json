@@ -1,0 +1,176 @@
+{
+  "lineChart": {
+      "*": {
+        "general": [{
+          "responsive": true,
+          "keepLayerOrder": true
+        }],
+        
+        "legend": [{
+          "show": true,
+          "position": "Bottom",
+          "showTitle": false,
+          "titleText": "",
+          "fontColor": { "solid": { "color": "#666666" } },
+          "fontFamily": "Segoe UI",
+          "fontSize": 10
+        }],
+        
+        "dataPoint": [{
+          "fill": { "solid": { "color": "#118DFF" } },
+          "showAllDataPoints": true
+        }],
+        
+        "categoryAxis": [{
+          "show": true,
+          "axisColor": { "solid": { "color": "#CCCCCC" } },
+          "fontColor": { "solid": { "color": "#666666" } },
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "showTitle": false,
+          "titleText": "",
+          "titleColor": { "solid": { "color": "#000000" } },
+          "titleFontSize": 12,
+          "titleFontFamily": "Segoe UI Semibold",
+          "axisType": "Continuous",
+          "start": null,
+          "end": null,
+          "labelDisplayUnits": 0,
+          "concatenateLabels": false,
+          "preferredCategoryWidth": 20
+        }],
+        
+        "valueAxis": [{
+          "show": true,
+          "axisColor": { "solid": { "color": "#CCCCCC" } },
+          "fontColor": { "solid": { "color": "#666666" } },
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "showTitle": false,
+          "titleText": "",
+          "titleColor": { "solid": { "color": "#000000" } },
+          "titleFontSize": 12,
+          "titleFontFamily": "Segoe UI Semibold",
+          "axisScale": "linear",
+          "start": null,
+          "end": null,
+          "labelDisplayUnits": 0,
+          "labelPrecision": null,
+          "gridlineShow": true,
+          "gridlineColor": { "solid": { "color": "#E5E5E5" } },
+          "gridlineThickness": 1,
+          "gridlineStyle": "solid",
+          "intersection": 0,
+          "showAxisTitle": true
+        }],
+        
+        "dataLabels": [{
+          "show": false,
+          "color": { "solid": { "color": "#000000" } },
+          "labelDisplayUnits": 0,
+          "labelPrecision": null,
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "showAll": true
+        }],
+        
+        "markers": [{
+          "show": false,
+          "size": 5
+        }],
+        
+        "plotArea": [{
+          "transparency": 0
+        }],
+        
+        "shapes": [{
+          "lineStyle": "solid",
+          "lineWidth": 2,
+          "showMarker": false,
+          "markerShape": "circle",
+          "markerSize": 6,
+          "markerColor": null,
+          "stepped": false,
+          "shadedArea": false
+        }],
+        
+        "trendLines": [{
+          "show": false,
+          "lineColor": { "solid": { "color": "#808080" } },
+          "transparency": 0,
+          "style": "solid",
+          "lineWidth": 2,
+          "combineSeries": false
+        }],
+        
+        "forecast": [{
+          "show": false,
+          "lineColor": { "solid": { "color": "#808080" } },
+          "lineStyle": "dashed",
+          "upperConfidenceColor": { "solid": { "color": "#CCCCCC" } },
+          "lowerConfidenceColor": { "solid": { "color": "#CCCCCC" } },
+          "transparency": 50
+        }],
+        
+        "zoom": [{
+          "show": false,
+          "selectionColor": { "solid": { "color": "#118DFF" } }
+        }],
+        
+        "background": [{
+          "show": false,
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 0
+        }],
+        
+        "title": [{
+          "show": false,
+          "fontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "alignment": "left",
+          "fontSize": 12,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        
+        "visualHeader": [{
+          "show": true,
+          "foreground": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } }
+        }],
+        
+        "visualTooltip": [{
+          "titleFontColor": { "solid": { "color": "#000000" } },
+          "valueFontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 10,
+          "fontSize": 12,
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "visualBorder": [{
+          "show": false,
+          "color": { "solid": { "color": "#CCCCCC" } },
+          "radius": 0,
+          "width": 1
+        }]
+      }
+    }
+  },
+  
+  "_comments": {
+    "description": "Максимально повний набір параметрів для Line та Area Charts",
+    "usage": "Copy 'lineChart' object in visualStyles of your theme",
+    "howToUse": "{ \"visualStyles\": { ...paste_here... } }",
+    "note": "Працює для: lineChart, areaChart, lineClusteredColumnComboChart, lineStackedColumnComboChart, ribbonChart",
+    "axisType": "Continuous | Categorical",
+    "axisScale": "linear | log",
+    "lineStyle": "solid | dashed | dotted",
+    "lineWidth": "1-6: товщина ліній",
+    "markerShape": "circle | square | diamond | triangle | x | shortDash | longDash | plus",
+    "markerSize": "1-20: розмір маркерів",
+    "stepped": "true = stepped line chart",
+    "shadedArea": "true = заповнення під лінією (перетворює в area chart)",
+    "gridlineStyle": "solid | dashed | dotted",
+    "preferredCategoryWidth": "1-100: мінімальна ширина категорій"
+  }
+}

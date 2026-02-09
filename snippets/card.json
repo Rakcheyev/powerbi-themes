@@ -1,0 +1,140 @@
+{
+  "card": {
+      "*": {
+        "general": [{
+          "responsive": true,
+          "keepLayerOrder": true
+        }],
+        
+        "categoryLabels": [{
+          "show": true,
+          "color": { "solid": { "color": "#666666" } },
+          "fontSize": 12,
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "labels": [{
+          "color": { "solid": { "color": "#000000" } },
+          "labelDisplayUnits": 0,
+          "labelPrecision": 2,
+          "fontSize": 24,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        
+        "wordWrap": [{
+          "show": false
+        }],
+        
+        "calloutValue": [{
+          "color": { "solid": { "color": "#000000" } },
+          "fontSize": 45,
+          "fontFamily": "Segoe UI Light"
+        }],
+        
+        "border": [{
+          "show": false,
+          "color": { "solid": { "color": "#CCCCCC" } },
+          "radius": 5
+        }],
+        
+        "visualHeader": [{
+          "show": true,
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "border": { "solid": { "color": "#E0E0E0" } },
+          "transparency": 0,
+          "foreground": { "solid": { "color": "#000000" } }
+        }],
+        
+        "visualHeaderTooltip": [{
+          "text": "",
+          "titleFontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "textFontColor": { "solid": { "color": "#666666" } },
+          "fontSize": 10
+        }],
+        
+        "visualTooltip": [{
+          "titleFontColor": { "solid": { "color": "#000000" } },
+          "valueFontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 10,
+          "fontSize": 12,
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "title": [{
+          "show": false,
+          "fontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "alignment": "left",
+          "fontSize": 12,
+          "fontFamily": "Segoe UI Semibold",
+          "bold": false,
+          "italic": false,
+          "underline": false
+        }],
+        
+        "subTitle": [{
+          "show": false,
+          "fontColor": { "solid": { "color": "#666666" } },
+          "alignment": "left",
+          "fontSize": 9,
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "divider": [{
+          "show": false,
+          "color": { "solid": { "color": "#CCCCCC" } },
+          "ignorePadding": false
+        }],
+        
+        "spacing": [{
+          "customizeSpacing": false,
+          "verticalSpacing": 5,
+          "spaceBelowTitle": 5,
+          "spaceBelowSubTitle": 5,
+          "spaceBelowTitleArea": 5
+        }],
+        
+        "background": [{
+          "show": true,
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 0
+        }],
+        
+        "lockAspect": [{
+          "show": false
+        }],
+        
+        "visualBorder": [{
+          "show": false,
+          "color": { "solid": { "color": "#CCCCCC" } },
+          "radius": 0,
+          "width": 1
+        }],
+        
+        "shadow": [{
+          "show": false,
+          "color": { "solid": { "color": "#000000" } },
+          "transparency": 70,
+          "position": "Outer",
+          "angle": 45,
+          "distance": 10,
+          "blur": 10
+        }]
+      }
+    }
+  },
+  
+  "_comments": {
+    "description": "Максимально повний набір параметрів для Card візуалу",
+    "usage": "Copy 'card' object in visualStyles of your theme",
+    "howToUse": "{ \"visualStyles\": { ...paste_here... } }",
+    "customization": "Змініть кольори, шрифти, розміри під ваші потреби",
+    "labelDisplayUnits": "0=Auto, -1=None, 1000=K, 1000000=M, 1000000000=B",
+    "alignment": "left | center | right",
+    "fontFamily": "Segoe UI | Segoe UI Light | Segoe UI Semibold | DIN | Arial",
+    "shadow_position": "Outer | Inner",
+    "border_radius": "0-100 (px)"
+  }
+}

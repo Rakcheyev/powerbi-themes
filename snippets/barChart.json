@@ -1,0 +1,159 @@
+{
+  "clusteredBarChart": {
+      "*": {
+        "general": [{
+          "responsive": true,
+          "keepLayerOrder": true
+        }],
+        
+        "legend": [{
+          "show": true,
+          "position": "Bottom",
+          "showTitle": false,
+          "titleText": "",
+          "fontColor": { "solid": { "color": "#666666" } },
+          "fontFamily": "Segoe UI",
+          "fontSize": 10
+        }],
+        
+        "dataPoint": [{
+          "fill": { "solid": { "color": "#118DFF" } },
+          "showAllDataPoints": true
+        }],
+        
+        "categoryAxis": [{
+          "show": true,
+          "axisColor": { "solid": { "color": "#CCCCCC" } },
+          "axisStyle": "showTitleOnly",
+          "fontColor": { "solid": { "color": "#666666" } },
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "showTitle": false,
+          "titleText": "",
+          "titleColor": { "solid": { "color": "#000000" } },
+          "titleFontSize": 12,
+          "titleFontFamily": "Segoe UI Semibold",
+          "labelDisplayUnits": 0,
+          "concatenateLabels": false,
+          "maximumSize": 25,
+          "innerPadding": 20,
+          "position": "Left"
+        }],
+        
+        "valueAxis": [{
+          "show": true,
+          "axisColor": { "solid": { "color": "#CCCCCC" } },
+          "fontColor": { "solid": { "color": "#666666" } },
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "showTitle": false,
+          "titleText": "",
+          "titleColor": { "solid": { "color": "#000000" } },
+          "titleFontSize": 12,
+          "titleFontFamily": "Segoe UI Semibold",
+          "axisScale": "linear",
+          "start": null,
+          "end": null,
+          "labelDisplayUnits": 0,
+          "labelPrecision": null,
+          "gridlineShow": true,
+          "gridlineColor": { "solid": { "color": "#E5E5E5" } },
+          "gridlineThickness": 1,
+          "gridlineStyle": "solid",
+          "position": "Left"
+        }],
+        
+        "dataLabels": [{
+          "show": false,
+          "color": { "solid": { "color": "#000000" } },
+          "labelDisplayUnits": 0,
+          "labelPrecision": null,
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "labelPosition": "InsideEnd",
+          "labelOrientation": "horizontal",
+          "showAll": true,
+          "enableBackground": false,
+          "backgroundColor": { "solid": { "color": "#FFFFFF" } },
+          "backgroundTransparency": 50
+        }],
+        
+        "plotArea": [{
+          "transparency": 0,
+          "image": null
+        }],
+        
+        "smallMultiples": [{
+          "show": false,
+          "spacing": 5,
+          "fontColor": { "solid": { "color": "#000000" } },
+          "fontSize": 10,
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "zoom": [{
+          "show": false,
+          "selectionColor": { "solid": { "color": "#118DFF" } }
+        }],
+        
+        "background": [{
+          "show": false,
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 0
+        }],
+        
+        "title": [{
+          "show": false,
+          "fontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "alignment": "left",
+          "fontSize": 12,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        
+        "visualHeader": [{
+          "show": true,
+          "foreground": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } }
+        }],
+        
+        "visualTooltip": [{
+          "titleFontColor": { "solid": { "color": "#000000" } },
+          "valueFontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 10,
+          "fontSize": 12,
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "visualBorder": [{
+          "show": false,
+          "color": { "solid": { "color": "#CCCCCC" } },
+          "radius": 0,
+          "width": 1
+        }],
+        
+        "shadow": [{
+          "show": false,
+          "color": { "solid": { "color": "#000000" } },
+          "transparency": 70,
+          "position": "Outer"
+        }]
+      }
+    }
+  },
+  
+  "_comments": {
+    "description": "Максимально повний набір параметрів для Bar/Column Charts",
+    "usage": "Copy 'clusteredBarChart' object in visualStyles of your theme",
+    "howToUse": "{ \"visualStyles\": { ...paste_here... } }",
+    "note": "Працює для: clusteredBarChart, clusteredColumnChart, hundredPercentStackedBarChart, hundredPercentStackedColumnChart",
+    "axisScale": "linear | log",
+    "axisStyle": "showTitleOnly | showUnitOnly | showBoth",
+    "labelPosition": "InsideEnd | InsideCenter | InsideBase | OutsideEnd | Auto",
+    "labelOrientation": "horizontal | vertical",
+    "gridlineStyle": "solid | dashed | dotted",
+    "innerPadding": "0-50: spacing між bars",
+    "maximumSize": "0-100: max ширина category axis"
+  }
+}

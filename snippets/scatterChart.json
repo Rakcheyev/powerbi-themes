@@ -1,0 +1,156 @@
+{
+  "scatterChart": {
+      "*": {
+        "general": [{
+          "responsive": true,
+          "keepLayerOrder": true
+        }],
+        
+        "legend": [{
+          "show": true,
+          "position": "Bottom",
+          "showTitle": false,
+          "titleText": "",
+          "fontColor": { "solid": { "color": "#666666" } },
+          "fontFamily": "Segoe UI",
+          "fontSize": 10
+        }],
+        
+        "dataPoint": [{
+          "defaultColor": { "solid": { "color": "#118DFF" } },
+          "showAllDataPoints": true,
+          "fill": { "solid": { "color": "#118DFF" } },
+          "fillRule": {
+            "linearGradient2": {
+              "min": { "color": { "solid": { "color": "#deefff" } } },
+              "max": { "color": { "solid": { "color": "#118DFF" } } }
+            }
+          }
+        }],
+        
+        "categoryAxis": [{
+          "show": true,
+          "axisColor": { "solid": { "color": "#CCCCCC" } },
+          "fontColor": { "solid": { "color": "#666666" } },
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "showTitle": false,
+          "titleText": "",
+          "titleColor": { "solid": { "color": "#000000" } },
+          "titleFontSize": 12,
+          "titleFontFamily": "Segoe UI Semibold",
+          "axisScale": "linear",
+          "start": null,
+          "end": null,
+          "labelDisplayUnits": 0,
+          "labelPrecision": null,
+          "gridlineShow": true,
+          "gridlineColor": { "solid": { "color": "#E5E5E5" } },
+          "gridlineThickness": 1,
+          "gridlineStyle": "solid"
+        }],
+        
+        "valueAxis": [{
+          "show": true,
+          "axisColor": { "solid": { "color": "#CCCCCC" } },
+          "fontColor": { "solid": { "color": "#666666" } },
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "showTitle": false,
+          "titleText": "",
+          "titleColor": { "solid": { "color": "#000000" } },
+          "titleFontSize": 12,
+          "titleFontFamily": "Segoe UI Semibold",
+          "axisScale": "linear",
+          "start": null,
+          "end": null,
+          "labelDisplayUnits": 0,
+          "labelPrecision": null,
+          "gridlineShow": true,
+          "gridlineColor": { "solid": { "color": "#E5E5E5" } },
+          "gridlineThickness": 1,
+          "gridlineStyle": "solid",
+          "intersection": 0
+        }],
+        
+        "dataLabels": [{
+          "show": false,
+          "color": { "solid": { "color": "#000000" } },
+          "labelDisplayUnits": 0,
+          "labelPrecision": null,
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "showAll": true
+        }],
+        
+        "fillPoint": [{
+          "show": true
+        }],
+        
+        "colorByCategory": [{
+          "show": false
+        }],
+        
+        "plotArea": [{
+          "transparency": 0
+        }],
+        
+        "zoom": [{
+          "show": false,
+          "selectionColor": { "solid": { "color": "#118DFF" } }
+        }],
+        
+        "background": [{
+          "show": false,
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 0
+        }],
+        
+        "title": [{
+          "show": false,
+          "fontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "alignment": "left",
+          "fontSize": 12,
+          "fontFamily": "Segoe UI Semibold"
+        }],
+        
+        "visualHeader": [{
+          "show": true,
+          "foreground": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } }
+        }],
+        
+        "visualTooltip": [{
+          "titleFontColor": { "solid": { "color": "#000000" } },
+          "valueFontColor": { "solid": { "color": "#000000" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 10,
+          "fontSize": 12,
+          "fontFamily": "Segoe UI"
+        }],
+        
+        "visualBorder": [{
+          "show": false,
+          "color": { "solid": { "color": "#CCCCCC" } },
+          "radius": 0,
+          "width": 1
+        }]
+      }
+    }
+  },
+  
+  "_comments": {
+    "description": "Максимально повний набір параметрів для Scatter та Bubble Charts",
+    "usage": "Copy 'scatterChart' object in visualStyles of your theme",
+    "howToUse": "{ \"visualStyles\": { ...paste_here... } }",
+    "note": "Працює для: scatterChart (розмір точок фіксований), bubbleChart (розмір=Size field)",
+    "axisScale": "linear | log",
+    "gridlineStyle": "solid | dashed | dotted",
+    "fillPoint": "true = заповнені точки, false = порожні",
+    "colorByCategory": "true = різні кольори для категорій",
+    "fillRule": "Градієнт кольорів для bubble chart на базі Size field",
+    "defaultColor": "Колір точок якщо не використовується Legend",
+    "intersection": "Точка перетину осей (зазвичай 0)"
+  }
+}
