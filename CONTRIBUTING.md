@@ -47,7 +47,7 @@ All submitted themes must meet these requirements:
 ### 1. Fork the Repository
 
 ```bash
-git clone https://github.com/[YOUR-ORG]/powerbi-themes.git
+git clone https://github.com/Rakcheyev/powerbi-themes.git
 cd powerbi-themes
 git checkout -b feature/new-theme-name
 ```

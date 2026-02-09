@@ -25,14 +25,14 @@
 **Option 1: Git Submodule (Recommended for projects)**
 ```bash
 cd your-powerbi-project
-git submodule add https://github.com/[YOUR-ORG]/powerbi-themes.git themes
+git submodule add https://github.com/Rakcheyev/powerbi-themes.git themes
 git submodule update --init
 ```
 
 **Option 2: Direct Clone**
 ```bash
 cd your-powerbi-project
-git clone https://github.com/[YOUR-ORG]/powerbi-themes.git themes
+git clone https://github.com/Rakcheyev/powerbi-themes.git themes
 ```
 
 **Option 3: Manual Download**
@@ -195,7 +195,7 @@ See `examples/` folder for real-world theme implementations and usage patterns.
 
 ## 📞 Support
 
-- **Issues:** [GitHub Issues](https://github.com/[YOUR-ORG]/powerbi-themes/issues)
+- **Issues:** [GitHub Issues](https://github.com/Rakcheyev/powerbi-themes/issues)
 - **Documentation:** [themes/docs/](themes/docs/)
 
 ---
